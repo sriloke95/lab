@@ -1,0 +1,1461 @@
+docker compose up -d
+docker compose down
+
+>>>>>>>>>>> commands <<<<<<<<<<<<<
+
+    ports:
+      - "8082:80"
+  app2:
+    build: .
+    ports:
+      - "8081:80"
+
+  app1:
+    build: .
+version: '3'
+services:
+
+//docker-compose.yml
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+
+//dockerfile
+
+//app2.html
+<h1>App 2 Running</h1>
+//app1.html
+<h1>App 1 Running</h1>
+# TASK 2
+
+----------------------------------------------------
+
+git push -u origin main
+git remote add origin https://github.com/<your-username>/<repo>.git
+git branch -M main
+
+git commit -m "Add registration form"
+git add registration.html
+git init
+cd set1-reg-form
+mkdir set1-reg-form
+>>>>>>>>> GIT COMMANDs <<<<<<<<<<<<
+
+</html>
+
+</body>
+</script>
+}
+
+    return true;
+         <p>Email: ${email}</p>
+         <p>Message: ${message}</p>`;
+    document.getElementById("details").innerHTML =
+        `<p>Name: ${name}</p>
+
+    // Display details
+    // Success message
+    document.getElementById("msg").innerText = "Feedback Sent!";
+    }
+
+        alert("Please fill all fields!");
+        return false;
+    // Simple validation
+    if (name === "" || email === "" || message === "") {
+    let message = document.getElementById("message").value.trim();
+
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+    event.preventDefault();
+
+<script>
+function submitForm(event) {
+<div id="details"></div>
+
+
+<div id="msg"></div>
+  <button type="submit">Send</button>
+</form>
+  <textarea id="message" rows="4" cols="30"></textarea><br><br>
+
+  <input type="email" id="email"><br><br>
+
+  <label>Message:</label><br>
+  <label>Email:</label>
+</head>
+</style>
+
+    }
+        color: green;
+<body>
+
+
+  <label>Name:</label>
+  <input type="text" id="name"><br><br>
+<h2>Contact / Feedback Form</h2>
+<form onsubmit="return submitForm(event)">
+
+    #msg {
+    }
+        margin-top: 15px;
+        font-weight: bold;
+    #msg, #details {
+        text-align: center;
+    }
+        color: purple;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: skyblue;
+        width: 100%;
+        padding: 20px;
+    }
+    button {
+        width: 95%;
+        padding: 10px;
+    }
+    input, textarea {
+    label {
+        font-weight: bold;
+        color: blue;
+    }
+        padding: 20px;
+        background-color: pink;
+        width: 300px;
+        margin: auto;
+    }
+    form {
+        font-family: Arial;
+        padding: 20px;
+<style>
+    body {
+<head>
+<title>Feedback Form</title>
+
+# TASK 1
+<!DOCTYPE html>
+<html>
+_______________________________________________ SET 1 __________________________________________
+
+}
+
+        }
+    }
+            steps {
+                echo "Deploy Stage"
+            }
+        }
+        stage('Deploy') {
+                echo "Test Stage"
+            }
+        stage('Test') {
+            steps {
+pipeline {
+    stages {
+            }
+        }
+    agent any
+        stage('Build') {
+            steps {
+                echo "Build Stage"
+
+# TASK 3
+
+--------------------------------------------------------
+docker run -d -p 8080:80 reg-login-app
+
+docker build -t reg-login-app .
+
+>>>>>>> commands <<<<<<<<<
+COPY index.html /usr/share/nginx/html/index.html
+>>>>>>> dockerfile <<<<<<<<<
+FROM nginx:alpine
+</form>
+
+  <input type="password" placeholder="Password"><br><br>
+  <button>Login</button>
+<form>
+  <input placeholder="Username"><br><br>
+
+<h2>Login</h2>
+  <button>Register</button>
+</form>
+  <input placeholder="Username"><br><br>
+  <input type="password" placeholder="Password"><br><br>
+<h2>Registration</h2>
+<form>
+# TASK 2
+
+---------------------------------------------------------
+
+</body>
+</html>
+</script>
+
+    return true;
+}
+         <p>Message: ${message}</p>`;
+
+        `<p>Name: ${name}</p>
+         <p>Email: ${email}</p>
+    // Display details
+    document.getElementById("details").innerHTML =
+    document.getElementById("msg").innerText = "Feedback Sent!";
+
+
+    // Success message
+    if (name === "" || email === "" || message === "") {
+    // Simple validation
+
+    let message = document.getElementById("message").value.trim();
+        return false;
+    }
+    let name = document.getElementById("name").value.trim();
+        alert("Please fill all fields!");
+    let email = document.getElementById("email").value.trim();
+
+    event.preventDefault();
+function submitForm(event) {
+<script>
+<div id="details"></div>
+
+
+<div id="msg"></div>
+  <button type="submit">Send</button>
+</form>
+  <textarea id="message" rows="4" cols="30"></textarea><br><br>
+
+
+  <label>Message:</label><br>
+  <label>Email:</label>
+  <input type="email" id="email"><br><br>
+  <input type="text" id="name"><br><br>
+
+<form onsubmit="return submitForm(event)">
+  <label>Name:</label>
+<h2>Contact / Feedback Form</h2>
+
+
+</head>
+<body>
+</style>
+
+        color: green;
+    }
+    }
+    #msg {
+        margin-top: 15px;
+        font-weight: bold;
+    #msg, #details {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+        padding: 20px;
+    button {
+        width: 100%;
+        background-color: skyblue;
+        color: purple;
+    }
+        padding: 10px;
+        width: 95%;
+    input, textarea {
+        font-weight: bold;
+    }
+    label {
+    }
+        color: blue;
+        padding: 20px;
+        background-color: pink;
+    body {
+    form {
+        width: 300px;
+        margin: auto;
+        font-family: Arial;
+        padding: 20px;
+    }
+
+<style>
+<head>
+<title>Feedback Form</title>
+<!DOCTYPE html>
+<html>
+# TASK 1
+
+_________________________________________ SET 2 ____________________________________________
+
+
+kubectl get pods
+kubectl get svc
+kubectl apply -f service.yaml
+>>>>>> commands <<<<<<<<<<<<<<
+kubectl apply -f deployment.yaml
+    nodePort: 30080
+
+  - port: 80
+    targetPort: 80
+    app: calc
+  ports:
+  selector:
+  name: calc-service
+spec:
+  type: NodePort
+kind: Service
+metadata:
+// service.yaml
+apiVersion: v1
+
+
+        ports:
+        - containerPort: 80
+      containers:
+      - name: calc-container
+    spec:
+        imagePullPolicy: Never
+        app: calc
+        image: java-calculator:latest
+    metadata:
+      labels:
+      app: calc
+  template:
+    matchLabels:
+  replicas: 1
+  selector:
+spec:
+>>>>>>> commands <<<<<<<<<<<<<<
+  name: calc-app
+docker run -it java-calculator
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+# TASK 3
+
+
+--------------------------------------------------------------------
+docker build -t java-calculator .
+COPY Calculator.java .
+CMD ["java", "Calculator"]
+
+RUN javac Calculator.java
+
+>>>>>>> DockerFile <<<<<<<<
+FROM openjdk:17
+    }
+}
+
+        System.out.println("Result: " + result);
+            case "/": result = a / b; break;
+        }
+            case "-": result = a - b; break;
+            case "*": result = a * b; break;
+
+
+        switch(op) {
+            case "+": result = a + b; break;
+
+
+        int result = 0;
+public class Calculator {
+        System.out.print("Enter operation (+ - * /): ");
+        String op = sc.next();
+    public static void main(String[] args) {
+import java.util.Scanner;
+# TASK 2
+
+        Scanner sc = new Scanner(System.in);
+        int b = sc.nextInt();
+
+
+        System.out.print("Enter number 1: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter number 2: ");
+
+-----------------------------------------------------------------------------------
+git commit -m "Final merged book"
+git add book.html
+
+# <h1>Chapter 2: Adventure</h1>
+# <h1>Chapter 3: Ending</h1>
+# 6) FIX FINAL BOOK (combine all chapters)
+# <h1>Chapter 1: Beginning</h1>
+
+# Edit book.html to contain:
+
+git merge chapter2
+git merge chapter3
+git checkout main
+git merge chapter1
+# 5) MERGE ALL INTO MAIN
+
+git commit -m "Add chapter 3"
+
+echo "<h1>Chapter 3: Ending</h1>" > book.html
+git add book.html
+git checkout main
+git checkout -b chapter3
+# 4) BRANCH 3 — chapter3
+
+git commit -m "Add chapter 2"
+
+echo "<h1>Chapter 2: Adventure</h1>" > book.html
+git add book.html
+git checkout main           # go back to main
+git checkout -b chapter2    # create + switch
+# 3) BRANCH 2 — chapter2
+
+git commit -m "Add chapter 1"
+
+echo "<h1>Chapter 1: Beginning</h1>" > book.html
+git add book.html
+# 2) BRANCH 1 — chapter1
+
+git checkout -b chapter1    # create + switch
+# Create empty book file
+
+cd story-book               # go into folder
+
+
+git commit -m "Empty book"
+echo "" > book.html
+git add book.html
+git init                    # start git repo
+mkdir story-book            # create folder
+# 1) CREATE PROJECT & INITIALIZE GIT
+
+
+# TASK 1
+
+____________________________________ SET 3 ___________________________________________________
+
+}
+    }
+
+        driver.quit();
+        driver.get("https://mgit.ac.in");
+        System.out.println("MGIT Title: " + driver.getTitle());
+        // Test MGIT
+        System.out.println("Google Title: " + driver.getTitle());
+
+        // Test Google
+        driver.get("https://www.google.com");
+        WebDriver driver = new ChromeDriver();
+
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+
+
+        // Path to chromedriver (if not in system PATH)
+public class TestSites {
+    public static void main(String[] args) {
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+# TASK 3
+
+-------------------------------------------------------------------
+
+docker exec -it <container-id> sh
+
+
+# Open shell inside container
+# Show logs
+docker logs <container-id>
+docker rmi <image-id>
+
+# Start a container
+
+docker start <container-id>
+
+# Remove a container
+docker rm <container-id>
+
+# Remove an image
+docker stop <container-id>
+docker ps -a
+
+# Stop a container
+# List all containers
+
+docker ps
+
+# List running containers
+docker run -d -p 8080:80 nginx
+# Run container on port 8080
+
+
+docker pull nginx
+# Pull an image (nginx example)
+# Check docker version
+docker --version
+# TASK 2
+
+--------------------------------------------------------------------------
+
+</body> 
+</html>
+    <p>CSE Student..Tech enthusiast..Fullstack development</p> 
+  </div> 
+    <h2>Himaja</h2> 
+  <div class="card"> 
+    <img src="C:\Users\HP\Downloads\WhatsApp Image 2025-06-12 at 13.25.40_aaed8a8d (1) (1).jpg" alt="Profile Picture"> 
+</head> 
+<body> 
+  
+  </style> 
+    } 
+ 
+      height: 120px; 
+      border-radius: 50%; 
+    img { 
+  width: 120px; 
+      border-radius: 8px; 
+    } 
+      padding: 20px; 
+      border: 1px solid black; 
+      width: 500px; 
+      margin: auto; 
+    .card { 
+      background-color: white; 
+      padding: 40px; 
+    } 
+<head> 
+<html> 
+<!DOCTYPE html> 
+# TASK 1
+  <title>Profile Card</title> 
+  <style> 
+      font-family: Arial; 
+      background-color:gray; 
+      text-align: center; 
+    body { 
+
+
+________________________________________________ SET 4 ________________________________________________
+docker run -it guess-game
+
+
+>>>>>>>>> Commands <<<<<<<<<<<<
+docker build -t guess-game .
+COPY app.py .
+CMD ["python", "app.py"]
+
+FROM python:3.9
+
+>>>>>>>>>>
+else:
+    print("Wrong! The number was:", num)
+if guess == num:
+    print("Correct! You guessed it.")
+print("Guess a number between 1 and 5:")
+guess = int(input())
+import random
+num = random.randint(1, 5)
+# TASK 3
+
+
+----------------------------------------------------
+git remote add origin "https://git-repository.git
+git push -u origin bio-update
+git add hobbies.txt
+git commit -m "Add hobbies"
+2. Gaming
+3. Music" > hobbies.txt
+echo "Hobbies:
+1. Reading
+
+git checkout -b bio-update
+</html>
+-----------------------------------------------------
+# TASK 2
+</ul>
+</body>
+  <li>Interstellar</li>
+  <li>3 Idiots</li>
+  <li>The Alchemist</li>
+  <li>Atomic Habits</li>
+  <li>Harry Potter</li>
+<ul>
+</ul>
+<h2>Movies</h2>
+<ul>
+  <li>Inception</li>
+<h2>Books</h2>
+</head>
+<body>
+<h1>My Favorite Books & Movies</h1>
+</style>
+}
+            width: 250px; 
+  margin: 10px auto; 
+            padding: 10px; 
+color:blue;
+}
+li{
+background-color:pink;
+text-align:center;
+}
+ul{
+h2{
+color:purple;
+color:red;
+}
+h1{
+text-align:center;
+font-family:arial;
+}
+body{
+padding:20px;
+  <title>My Favorites</title>
+<style>
+<html>
+<head>
+
+<!DOCTYPE html>
+
+# TASK 1
+
+_______________________________________ SET 5 ______________________________________________
+
+JENKINS 
+----------------------------------------------------------------------------
+# TASK 3
+kubectl delete -f file.yaml --- delete resources
+
+kubectl get deployments --- list all deployments
+kubectl apply -f file.yaml --- create resources
+  </tr>
+    <td>Library</td>
+    <td>Lab</td>
+# TASK 2
+kubectl cluster-info
+kubectl get nodes
+kubectl get pods --- list all pods
+kubectl get svc --- list all services
+kubectl version --client
+
+</html>
+---------------------------------------------------------------------------
+    <td>Programming</td>
+</body>
+</table>
+    <td>Wednesday</td>
+  <tr>
+  </tr>
+    <td>Math</td>
+    <td>Sports</td>
+    <td>Chemistry</td>
+    <td>Tuesday</td>
+  </tr>
+  <tr>
+    <td>English</td>
+    <td>Math</td>
+    <td>Physics</td>
+  <tr>
+    <td>Monday</td>
+    <th>11–12 PM</th>
+  </tr>
+    <th>9–10 AM</th>
+    <th>10–11 AM</th>
+  <tr>
+    <th>Day</th>
+<table>
+<body>
+<h2>Weekly Timetable</h2>
+}
+</style>
+</head>
+td,th{
+ border: 1px solid black;
+            padding: 5px;
+background-color:pink;
+}
+border-collapse: collapse;
+width:100%;
+}
+table{
+text-align:center;
+color:blue;
+font-family:arial;
+body{
+margin:auto;
+padding:20px;
+<style>
+  <title>Weekly Timetable</title>
+<html>
+<head>
+# TASK 1
+<!DOCTYPE html>
+
+________________________________ SET 6 ________________________________________
+
+kubectl get svc
+# open http://<node-ip>:30010  (or if minikube: http://localhost:30010)
+kubectl apply -f service.yaml
+kubectl get pods
+
+docker push sudheendra69/resume-app:latest
+kubectl apply -f deployment.yaml
+>>>>>>>> Commands <<<<<<<<<<<<
+
+
+    }
+})();
+    finally {
+        await driver.quit();
+        await driver.sleep(3000); // just to see result
+    }
+        console.log("Result =", result);
+
+                                 .getAttribute("value");
+
+        // Read the result from the screen
+        let result = await driver.findElement(By.id("screen"))
+        await driver.findElement(By.xpath("//button[text()='=']")).click();
+
+        await driver.findElement(By.xpath("//button[text()='+']")).click();
+        await driver.findElement(By.xpath("//button[text()='2']")).click();
+        // Press 1, +, 2, =
+        await driver.findElement(By.xpath("//button[text()='1']")).click();
+
+        await driver.get("file:///C:/Users/.../your-calculator.html"); // <-- update path
+    try {
+        // Load your calculator file
+test.js
+(async function testCalculator() {
+    let driver = await new Builder().forBrowser("chrome").build();
+
+
+
+onst { Builder, By } = require("selenium-webdriver");
+
+
+</html>
+</body>
+
+    </script>
+            document.getElementById("screen").value = "";
+        }
+        function clearscreen() {
+        }
+
+            }
+                document.getElementById("screen").value = "Error";
+                document.getElementById("screen").value = eval(exp);
+            } catch (e) {
+            let exp = document.getElementById("screen").value;
+            try {
+
+        function calculate() {
+            document.getElementById("screen").value += val;
+        }
+    <script>
+        function press(val) {
+    <button onclick="clearscreen()">C</button>
+
+    <button onclick="press('/')">/</button>
+    <button onclick="calculate()">=</button>
+    <!-- Row 4 -->
+    <button onclick="press('0')">0</button>
+    <br><br>
+
+    <button onclick="press('9')">9</button>
+    <button onclick="press('')"></button>
+    <button onclick="press('7')">7</button>
+    <button onclick="press('8')">8</button>
+
+    <!-- Row 3 -->
+    <br><br>
+    <button onclick="press('-')">-</button>
+______________________________ SET 10 _____________________________
+
+# Task 1
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Order Form</title>
+    <style>
+    <button onclick="press('5')">5</button>
+    <button onclick="press('6')">6</button>
+        body {
+            font-family: Arial;
+            padding: 20px;
+
+    <!-- Row 2 -->
+    <button onclick="press('4')">4</button>
+        }
+        form {
+            width: 300px;
+    <input id="screen" readonly style="width:150px;">
+    <br><br>
+
+    <button onclick="press('1')">1</button>
+    <button onclick="press('2')">2</button>
+    <button onclick="press('3')">3</button>
+    <button onclick="press('+')">+</button>
+    <br><br>
+    <!-- Row 1 -->
+
+            margin: auto;
+            padding: 20px;
+	 color:red;
+    <h3>Simple Calculator</h3>
+	background-color:skyblue;
+        }
+        label {
+            font-weight: bold;
+
+        }
+        input[type="text"] {
+            width: 95%;
+<body>
+            margin: auto;
+            padding: 10px;
+        }
+</head>
+        button {
+	margin: auto;
+            padding: 20px;
+    <title>Simple Calculator</title>
+            width: 100%;
+font-weight: bold;
+<html>
+<head>
+font-size:20px;
+background-color:lightpurple;
+color:green;
+<!DOCTYPE html>
+        }
+    </style>
+# TASK 3
+</head>
+<body>
+---------------------------------------------------------------------
+    <h2>Pizza Order Form</h2>
+    <form onsubmit="event.preventDefault(); document.getElementById('msg').innerText='Order Placed!';">
+        <label>Your Name:</label>
+        <input type="text" name="username" /><br><br>
+
+        <label>Select Pizza Size:</label><br>
+
+>>>>>> Docker commands <<<<<<<<<
+docker run -d -p 8080:80 resume-app
+# open http://localhost:8080
+docker build -t resume-app .
+        <input type="radio" name="size"> Small<br>
+
+COPY resume.html /usr/share/nginx/html/index.html
+
+FROM nginx:alpine
+        <input type="radio" name="size"> Medium<br>
+-------------------------------------------------------------------------------
+# TASK 2
+        <input type="radio" name="size"> Large<br><br>
+
+        <label>Toppings:</label><br>
+</body>
+</html>
+  </div>
+
+        <input type="checkbox"> Cheese<br>
+        <input type="checkbox"> Olives<br>
+        <input type="checkbox"> Pepperoni<br><br>
+
+      <p>Contact: abc@gmail.com</p>
+    </footer>
+
+    <footer>
+        <button name="submit" type="submit">Place Order</button>
+    </form>
+      <li>TODO App — Node + Mongo (learning)</li>
+    </ol>
+<div id="msg"></div>
+</body>
+      <li>Pizza Order Form — simple HTML + Selenium tests</li>
+      <li>Image Gallery — Dockerized static site</li>
+</html>-----------------------------------------------------------------------
+# TASK 2
+
+npm init -y
+    <h2>Projects</h2>
+    <ol>
+npm install selenium-webdriver
+npm install chromedriver
+    </ul>
+
+test.js
+const { Builder, By } = require("selenium-webdriver");
+      <li>Docker, Kubernetes (basic)</li>
+      <li>Node.js, Git</li>
+(async function example() {
+  let driver = await new Builder().forBrowser("chrome").build();
+  try {
+    await driver.get("https://google.com");
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+    let title = await driver.getTitle();
+
+    <h2>Skills</h2>
+    console.log("Page Title:", title);
+    let box = await driver.findElement(By.name("q"));
+  <div class="box">
+    <h1>Himaja Resume</h1>
+
+      <li>Inter — Narayana College </li>
+    </ul>
+    <h2>Education</h2>
+    await box.sendKeys("Selenium WebDriver");
+
+    // WAIT before closing browser
+    await driver.sleep(60000);
+      <li>B.Tech — Computer Science, MGIT University</li>
+    <ul>
+<body>
+  }
+  finally {
+
+    await driver.quit();
+
+</head>
+  }
+})();
+  </style>
+-----------------------------------------------------------------------
+        text-align: center;
+    }
+# TASK 3
+
+
+    h1 {
+<html>
+  <title>Himaja - Resume</title>
+    }
+
+  <style>
+        color: blue;
+        font-family: Arial;
+        padding: 20px;
+        margin: auto;
+    }
+    .box {
+        background-color: pink;
+        padding: 20px;
+        width: 60%;
+    body {
+<head>
+
+<!DOCTYPE html>
+# TASK 1
+__________________________________ SET 7 ________________________________________
+    await driver.quit();
+})();
+    console.log("Result Displayed →", output);
+
+    await driver.sleep(1000);
+    let output = await driver.findElement(By.id("result")).getText();
+
+
+    // Wait & print result
+    // Click Calculate
+    await driver.findElement(By.tagName("button")).click();
+
+____________const { Builder, By } = require("selenium-webdriver");
+    await driver.findElement(By.id("op")).sendKeys(Key.DOWN); // selects subtraction, choose as needed
+
+
+
+    // Select operation (+)
+
+>>>>>>>>>>>>>>>>>>> test.js <<<<<<<<<<<<<<<<<<<<<<
+(async function testPizzaForm() {
+    // Enter numbers
+    await driver.findElement(By.id("num1")).sendKeys("10");
+    await driver.findElement(By.id("num2")).sendKeys("5");
+
+</html>
+
+  let driver = await new Builder().forBrowser("chrome").build();
+const { Builder, By, Key } = require("selenium-webdriver");
+(async function testCalculator() {
+    let driver = await new Builder().forBrowser("chrome").build();
+
+    await driver.get("file:///C:/Users/sudhe/Desktop/calculator.html");
+
+  const FILE = "file:///C:/Users/yourpath/Desktop/pizza.html"; // update your path
+
+</body>
+  try {
+
+
+    // ------------------ TC01: Valid Order ------------------
+    await driver.get(FILE);
+</script>
+
+    await driver.findElement(By.name("username")).sendKeys("John");
+<head>
+}
+<body>
+<h2>Simple Calculator</h2>
+    document.getElementById("result").innerHTML = "Result: " + ans;
+<input id="num2" type="number">
+<select id="op">
+    <option value="add">+</option>
+
+    <option value="sub">-</option>
+    <option value="div">/</option>
+    else if (op === "mul") ans = a * b;
+    else ans = a / b;
+</select>
+<button onclick="calc()">Calculate</button>
+    else if (op === "sub") ans = a - b;
+
+<p id="result"></p>
+    if (op === "add") ans = a + b;
+
+<script>
+
+    let a = Number(document.getElementById("num1").value);
+    let b = Number(document.getElementById("num2").value);
+    let op = document.getElementById("op").value;
+    let ans;
+function calc() {
+
+    <option value="mul">*</option>
+
+
+<input id="num1" type="number">
+
+<title>Calculator</title>
+</head>
+    await driver.findElements(By.name("size"))[1].click();  // Select Medium
+<html>
+
+<!DOCTYPE html>
+    await driver.findElements(By.css("input[type='checkbox']"))[0].click(); // Cheese
+    await driver.findElement(By.name("submit")).click();
+---------------------------------------------------------------
+# TASK 3
+
+
+    console.log("TC01:", await driver.findElement(By.id("msg")).getText());
+
+git merge part3
+git add secret.txt
+git commit -m "Final merged secret message"
+
+echo "HELLO FROM GITHUB" > secret.txt
+
+    // ------------------ TC02: Name Missing ------------------
+git merge part1
+git merge part2
+    await driver.navigate().refresh();
+
+    // Select options but no name
+
+git checkout master
+    await driver.findElements(By.name("size"))[2].click(); // Large
+git add secret.txt
+git commit -m "Add part3"
+    await driver.findElements(By.css("input[type='checkbox']"))[1].click(); // Olives
+    await driver.findElement(By.name("submit")).click();
+
+git checkout -b part3
+echo "GITHUB" > secret.txt
+    console.log("TC02:", await driver.findElement(By.id("msg")).getText());
+
+
+git checkout master
+
+git checkout -b part2
+echo "FROM" > secret.txt
+git add secret.txt
+git commit -m "Add part2"
+    // ------------------ TC03: No Size Selected ------------------
+    await driver.navigate().refresh();
+
+    await driver.findElement(By.name("username")).sendKeys("John");
+git checkout master
+    // No pizza size selected
+    await driver.findElements(By.css("input[type='checkbox']"))[2].click(); // Pepperoni
+    await driver.findElement(By.name("submit")).click();
+
+
+git commit -m "Add part1"
+    console.log("TC03:", await driver.findElement(By.id("msg")).getText());
+
+git add secret.txt
+
+    // ------------------ TC04: No Toppings Selected ------------------
+    await driver.navigate().refresh();
+
+    await driver.findElement(By.name("username")).sendKeys("Alice");
+echo "HELLO" > secret.txt
+    console.log("TC06: Message Box Exists →", msg ? "PASS" : "FAIL");
+
+git checkout -b part1
+
+______________________ SET 9 ________________________________________
+git commit -m "Empty secret file"
+
+# TASK 1
+echo "" > secret.txt
+git add secret.txt
+<html>
+<head>
+
+    <style>
+        body {
+git init
+            font-family: Arial;
+cd git-secret
+            padding: 20px;
+
+
+mkdir git-secret
+
+# TASK 2: Multi-Stage Git Branching (Secret Message)
+-------------------------------------------------------------------------
+git remote add origin https://github.com/<username>/<repo-name>.git
+git push -u origin main
+git commit -m "Add tables and lists HTML page"
+git branch -M main
+git add set8.html
+</body>
+</html>
+>>>>>>>>>>> GIT COMMANDS <<<<<<<<<<<<<
+git init
+            text-align: center;
+</div>
+
+        }
+            background-color: skyblue;
+    </table>
+
+            padding: 20px;
+            <td>88</td>
+        </tr>
+            margin: auto;
+            width: 70%;
+        <tr>
+            <td>Meena</td>
+            color: red;
+        }
+            <td>90</td>
+        </tr>
+        figure {
+        <tr>
+            <td>Ravi</td>
+            display: inline-block;
+            <th>Marks</th>
+        </tr>
+            margin: 10px;
+        }
+            font-weight: bold;
+        }
+    </style>
+        <tr>
+            <th>Name</th>
+
+    <h3>Marks Table</h3>
+    <table>
+</head>
+
+    </figure>
+        <figcaption>Image 3</figcaption>
+        <li>Java</li>
+    </ol>
+</div>
+
+    <ol>
+        <li>JavaScript</li>
+        <li>Python</li>
+    <h3>Top 3 Languages</h3>
+
+<!DOCTYPE html>
+    </ul>
+    <title>Tables & Lists</title>
+        <li>Anil</li>
+            padding: 20px;
+        <li>Meena</li>
+            padding: 15px;
+    <ul>
+        <li>Ravi</li>
+            width: 60%;
+            margin: auto;
+    <h3>Student List</h3>
+
+<div class="box">
+
+        }
+<h2>Tables & Lists</h2>
+        table {
+            border-collapse: collapse;
+
+        }
+<body>
+</head>
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+            width: 100%;
+            color: red;
+        .box {
+            background-color: skyblue;
+        }
+            font-family: Arial;
+    <style>
+        body {
+<html>
+<head>
+
+___________________________________ SET 8 _____________________________________
+
+# TASK 1
+
+</body>
+    nodePort: 30080
+
+>>>>> Commands <<<<<<
+</html>
+  ports:
+  - port: 80
+    targetPort: 80
+kind: Service
+    app: gallery
+spec:
+  type: NodePort
+  selector:
+  name: gallery-service
+metadata:
+---------------------------------------------------------------------
+apiVersion: v1
+>>>>>>>>> service <<<<<<<<<<
+# TASK 2
+FROM nginx:alpine
+
+COPY gallery.html /usr/share/nginx/html/index.html
+        - containerPort: 80
+
+        ports:
+>>>>>>>> commands <<<<<<<<<<<
+docker build -t gallery-app .
+        image: sudheendra69/webapp:latest
+docker run -d -p 8080:80 gallery-app
+---------------------------------------------------------------------
+      - name: gallery-container
+# TASK 3
+      containers:
+
+apiVersion: apps/v1
+    spec:
+kind: Deployment
+metadata:
+        app: gallery
+    metadata:
+      labels:
+  name: gallery-deployment
+  template:
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gallery
+
+    </figure>
+
+        <figcaption>Image 2</figcaption>
+
+        <img src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=" width="200">
+    <figure>
+    </figure>
+    <figure>
+        <img src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=" width="200">
+        <figcaption>Image 1</figcaption>
+
+        <img src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=" width="200">
+    <figure>
+<div class="gallery">
+<h2>My Image Gallery</h2>
+<body>
+        figcaption {
+
+        .gallery {
+    <title>Simple Image Gallery</title>
+<!DOCTYPE html>
+
+})();
+    await driver.quit();
+  }
+  } finally {
+
+    await driver.sleep(5000);
+
+    await driver.findElements(By.name("size"))[0].click(); // Small
+    // ------------------ TC06: Check Message Box Exists ------------------
+    let msg = await driver.findElement(By.id("msg"));
+
+
+    // No toppings
+    let btn = await driver.findElement(By.name("submit"));
+    console.log("TC05: Button Exists →", btn ? "PASS" : "FAIL");
+    await driver.findElement(By.name("submit")).click();
+
+    // ------------------ TC05: Check Button Exists ------------------
+
+    console.log("TC04:", await driver.findElement(By.id("msg")).getText());
+
+
+
+    console.log("TC04:", await driver.findElement(By.id("msg")).getText());
+
+    // ------------------ TC05: Check Button Exists ------------------
+    await driver.findElement(By.name("submit")).click();
+    let btn = await driver.findElement(By.name("submit"));
+    // No toppings
+    await driver.findElements(By.name("size"))[0].click(); // Small
+    console.log("TC05: Button Exists →", btn ? "PASS" : "FAIL");
+
+    await driver.findElement(By.name("username")).sendKeys("Alice");
+    await driver.navigate().refresh();
+
+
+    // ------------------ TC04: No Toppings Selected ------------------
+    // ------------------ TC06: Check Message Box Exists ------------------
+    let msg = await driver.findElement(By.id("msg"));
+
+    console.log("TC06: Message Box Exists →", msg ? "PASS" : "FAIL");
+
+
+    await driver.navigate().refresh();
+    console.log("TC03:", await driver.findElement(By.id("msg")).getText());
+    await driver.findElements(By.css("input[type='checkbox']"))[1].click(); // Olives
+
+
+
+
+    // No pizza size selected
+    await driver.findElement(By.name("submit")).click();
+    await driver.findElements(By.css("input[type='checkbox']"))[2].click(); // Pepperoni
+    // ------------------ TC03: No Size Selected ------------------
+
+    await driver.findElement(By.name("username")).sendKeys("John");
+    await driver.navigate().refresh();
+    console.log("TC02:", await driver.findElement(By.id("msg")).getText());
+    await driver.findElement(By.name("submit")).click();
+    // Select options but no name
+    await driver.findElements(By.name("size"))[2].click(); // Large
+
+    // ------------------ TC02: Name Missing ------------------
+    console.log("TC01:", await driver.findElement(By.id("msg")).getText());
+
+    await driver.findElement(By.name("submit")).click();
+
+
+    await driver.findElements(By.name("size"))[1].click();  // Select Medium
+    await driver.findElements(By.css("input[type='checkbox']"))[0].click(); // Cheese
+
+
+    await driver.findElement(By.name("username")).sendKeys("John");
+    // ------------------ TC01: Valid Order ------------------
+    await driver.get(FILE);
+    await driver.sleep(5000);
+  try {
+
+
+  } finally {
+  const FILE = "file:///C:/Users/yourpath/Desktop/pizza.html"; // update your path
+
+# TASK 3
+
+
+  let driver = await new Builder().forBrowser("chrome").build();
+    await driver.quit();
+-----------------------------------------------------------------------
+
+(async function testPizzaForm() {
+  }
+
+____________const { Builder, By } = require("selenium-webdriver");
+})();
+
+  }
+})();
+    </form>
+    await driver.quit();
+<div id="msg"></div>
+  finally {
+</body>
+# TASK 2
+  }
+
+    await driver.sleep(60000);
+npm install selenium-webdriver
+npm install chromedriver
+    // WAIT before closing browser
+test.js
+    await box.sendKeys("Selenium WebDriver");
+const { Builder, By } = require("selenium-webdriver");
+(async function example() {
+    let box = await driver.findElement(By.name("q"));
+  let driver = await new Builder().forBrowser("chrome").build();
+    console.log("Page Title:", title);
+  try {
+    await driver.get("https://google.com");
+    let title = await driver.getTitle();
+npm init -y
+</html>-----------------------------------------------------------------------
+______________________________ SET 10 _____________________________
+        <button name="submit" type="submit">Place Order</button>
+        <input type="checkbox"> Pepperoni<br><br>
+
+
+        <input type="checkbox"> Olives<br>
+        <label>Toppings:</label><br>
+        <input type="checkbox"> Cheese<br>
+# Task 1
+<!DOCTYPE html>
+        <input type="radio" name="size"> Large<br><br>
+
+<html>
+<head>
+    <title>Pizza Order Form</title>
+    <style>
+        body {
+            font-family: Arial;
+        <input type="radio" name="size"> Medium<br>
+<body>
+    <h2>Pizza Order Form</h2>
+        <input type="radio" name="size"> Small<br>
+    <form onsubmit="event.preventDefault(); document.getElementById('msg').innerText='Order Placed!';">
+            padding: 20px;
+</head>
+        <label>Select Pizza Size:</label><br>
+        }
+        <label>Your Name:</label>
+        <input type="text" name="username" /><br><br>
+
+        form {
+    </style>
+            width: 300px;
+        }
+background-color:lightpurple;
+color:green;
+            margin: auto;
+            padding: 20px;
+font-size:20px;
+	 color:red;
+font-weight: bold;
+	background-color:skyblue;
+            width: 100%;
+        }
+	margin: auto;
+            padding: 20px;
+        label {
+        button {
+            padding: 10px;
+        }
+            width: 95%;
+            margin: auto;
+            font-weight: bold;
+        }
